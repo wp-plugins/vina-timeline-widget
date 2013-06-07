@@ -96,6 +96,7 @@ class Timeline_Widget extends WP_Widget
 		$freeLicense 	= esc_attr($instance['freeLicense']);
 		?>
         <div id="tcvn-timeline" class="tcvn-plugins-container">
+            <div style="color: red; padding: 0px 0px 10px; text-align: center;">You are using free version ! <a href="http://vinathemes.biz/commercial-plugins/item/23-wordpress-timeline-widget.html" title="Download full version." target="_blank">Click here</a> to download full version.</div>
             <div id="tcvn-tabs-container">
                 <ul id="tcvn-tabs">
                     <li class="active"><a href="#basic"><?php _e('Basic'); ?></a></li>
